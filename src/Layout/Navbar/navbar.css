@@ -1,0 +1,149 @@
+
+
+  .NavBarSection{
+    padding: 0 12.5% 0 12.5%;
+}
+
+.logo{
+    width: 120px;
+    height: 50px;
+}
+.logo-nav-2{
+  margin-top: 50px;
+}
+ .logout-img{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+ }
+
+
+
+    .nav-buttons{
+      border: none;
+      background-color: white;
+      font-weight: 500;
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: black;
+  
+      &:hover{
+          color: rgb(243, 112, 134);
+          font-weight: 600;
+      }
+    }
+  .logout{
+      width: 60px;
+      height: 60px;
+  }
+  
+  @media(min-width:800px){
+      .logout-in{
+          width: 60px;
+          height: 60px;
+          display: none;
+      }
+      .logout{
+          width: 60px;
+          height: 60px;
+      }
+      .nav-toggle{
+          display: none;
+          position: absolute;
+          top: 0.75rem;
+          right: 0.5rem;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 2.25rem;
+          height: 2rem;
+      }
+      .nav-toggle span{
+          height: 0.4rem;
+          width: 100%;
+          background-color: rgb(243, 112, 134);
+          border-radius: 0.2rem;
+      }
+      #nav-all-buttons{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 70px;
+          align-items: center;
+          
+          
+      }
+      .logo-nav-2{
+          display: none;
+      }
+  
+      
+  }
+  
+  
+  
+  
+  @media(max-width:799px){
+      .logout-in{
+          width: 60px;
+          height: 60px;
+          
+      }
+      .logout{
+          width: 60px;
+          height: 60px;
+          display: none;
+      }
+      .nav-toggle{
+          display: flex;
+      }
+      .nav-toggle{
+          display: flex;
+          position: absolute;
+          top: 0.75rem;
+          right: 0.5rem;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 2.25rem;
+          height: 2rem;
+          align-items: start;
+      }
+      .nav-toggle span{
+          height: 0.4rem;
+          width: 100%;
+          background-color: rgb(243, 112, 134);
+          border-radius: 0.2rem;
+      }
+      #nav-all-buttons{
+          margin-top: 60px;
+          display: none;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+          padding-bottom: 10px;
+        
+          
+      }
+      #nav-all-buttons.open{
+          margin-top: 60px;
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+          
+         
+   
+      }
+      
+      .navbar{
+         margin-top: -50px;
+          margin-bottom: 70px;
+      }
+      .logo{
+          display: none;
+      }
+      .logo-nav-small{
+          
+      }
+  
+      
+  }
