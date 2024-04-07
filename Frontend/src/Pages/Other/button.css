@@ -1,0 +1,28 @@
+/* customButton.css */
+
+.custom-button {
+    display: inline-block;
+    background-color: #007bff; /* Default background color */
+    color: #ffffff; /* Default text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button.small {
+    padding: 8px 16px; /* Small button padding */
+    font-size: 12px; /* Small button font size */
+  }
+  
+  .custom-button.large {
+    padding: 12px 24px; /* Large button padding */
+    font-size: 16px; /* Large button font size */
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  
